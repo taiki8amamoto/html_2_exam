@@ -17,15 +17,31 @@ body {
 
 /* ここから */
 header {
+  height: 50px;
+  background-color: #2B2B2B;
 }
 
 header ul {
+  display: flex; 
+  justify-content: flex-start;
+  padding-inline-start: 0px;
+  margin-block-start: 0rem
 }
 
 header ul a {
+  margin: 20px;
+  color: #FFF;
+  text-decoration: none;
 }
 
 header li {
+  list-style: none;
+  top: 16px;
+  position: relative;
+}
+
+header li:nth-of-type(3) {
+  margin-left: auto;
 }
 
 header ul:after {
