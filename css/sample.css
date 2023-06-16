@@ -57,8 +57,13 @@ header li:nth-of-type(3) {
   transform: translate(-50%, -50%);
 }
 
-.about {
+.about h1 {
 /* About Achieve部分の実装 */
+  font-size: 1.5rem;
+}
+
+.about p {
+  font-size: 0.8rem;
 }
 
 /* ここから */
