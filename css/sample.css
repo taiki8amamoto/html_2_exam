@@ -13,6 +13,8 @@ body {
   background-size: cover;
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
+  position: relative;
+  height: 90px;
 }
 
 /* ここから */
@@ -44,12 +46,15 @@ header li:nth-of-type(3) {
   margin-left: auto;
 }
 
-header ul:after {
-}
 /* ここまでがheader部分の実装 */
 
 .main-header img {
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  width: 13%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .about {
