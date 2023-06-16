@@ -57,6 +57,16 @@ header li:nth-of-type(3) {
   transform: translate(-50%, -50%);
 }
 
+h1 {
+  font-size: 1.5rem;
+  margin-block-start: 0px;
+  padding-top: 30px;
+}
+
+p:last-child {
+  padding-bottom: 25px;
+}
+
 .about h1 {
 /* About Achieve部分の実装 */
   font-size: 1.5rem;
@@ -66,14 +76,21 @@ header li:nth-of-type(3) {
   font-size: 0.8rem;
 }
 
+
 /* ここから */
 .function {
+  background-color: #D3D3D3;
 }
 
+
 .function-images {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
 }
 
 .function-image {
+  margin: 0 15px;
 }
 /* ここまでがfunction部分の実装 */
 
